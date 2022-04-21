@@ -5,7 +5,7 @@ public class TestQueueAndStack {
             testQueue.add(i);
         }
         System.out.println(testQueue.peak());
-        testQueue.poll();
+        System.out.println(testQueue.poll());
         System.out.println(testQueue.peak());
 
     }
